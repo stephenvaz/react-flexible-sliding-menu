@@ -6,7 +6,7 @@ const MenuContainerForReveal = ({ direction, width, children }) => {
   const menuContainerStyles = {
     position: 'fixed',
     width,
-    top: 0,
+    // top: 0,
     left: direction === 'right' ? null : 0,
     right: direction === 'right' ? 0 : null,
     height: '100vh',

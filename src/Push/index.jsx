@@ -20,7 +20,7 @@ const Push = ({ direction, width, menuIsClosing, setIsMenuOpen, children }) => {
     position: 'fixed',
     width,
     zIndex: 999,
-    top: 0,
+    // top: 0,
     left: direction === 'right' ? null : 0,
     right: direction === 'right' ? 0 : null,
     height: '100vh',
